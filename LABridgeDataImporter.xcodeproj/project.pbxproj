@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A4A42441BC9BE580077100D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4A42431BC9BE580077100D /* AppDelegate.swift */; };
+		1A4A42461BC9BE580077100D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4A42451BC9BE580077100D /* ViewController.swift */; };
+		1A4A42491BC9BE580077100D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4A42471BC9BE580077100D /* Main.storyboard */; };
+		1A4A424B1BC9BE580077100D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A4A424A1BC9BE580077100D /* Assets.xcassets */; };
+		1A4A424E1BC9BE580077100D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4A424C1BC9BE580077100D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A4A42401BC9BE580077100D /* LABridgeDataImporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LABridgeDataImporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A4A42431BC9BE580077100D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A4A42451BC9BE580077100D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A4A42481BC9BE580077100D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A4A424A1BC9BE580077100D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A4A424D1BC9BE580077100D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A4A424F1BC9BE580077100D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A4A423D1BC9BE580077100D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A4A42371BC9BE580077100D = {
+			isa = PBXGroup;
+			children = (
+				1A4A42421BC9BE580077100D /* LABridgeDataImporter */,
+				1A4A42411BC9BE580077100D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A4A42411BC9BE580077100D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A4A42401BC9BE580077100D /* LABridgeDataImporter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A4A42421BC9BE580077100D /* LABridgeDataImporter */ = {
+			isa = PBXGroup;
+			children = (
+				1A4A42431BC9BE580077100D /* AppDelegate.swift */,
+				1A4A42451BC9BE580077100D /* ViewController.swift */,
+				1A4A42471BC9BE580077100D /* Main.storyboard */,
+				1A4A424A1BC9BE580077100D /* Assets.xcassets */,
+				1A4A424C1BC9BE580077100D /* LaunchScreen.storyboard */,
+				1A4A424F1BC9BE580077100D /* Info.plist */,
+			);
+			path = LABridgeDataImporter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A4A423F1BC9BE580077100D /* LABridgeDataImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A4A42521BC9BE580077100D /* Build configuration list for PBXNativeTarget "LABridgeDataImporter" */;
+			buildPhases = (
+				1A4A423C1BC9BE580077100D /* Sources */,
+				1A4A423D1BC9BE580077100D /* Frameworks */,
+				1A4A423E1BC9BE580077100D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LABridgeDataImporter;
+			productName = LABridgeDataImporter;
+			productReference = 1A4A42401BC9BE580077100D /* LABridgeDataImporter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A4A42381BC9BE580077100D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = James;
+				TargetAttributes = {
+					1A4A423F1BC9BE580077100D = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 1A4A423B1BC9BE580077100D /* Build configuration list for PBXProject "LABridgeDataImporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A4A42371BC9BE580077100D;
+			productRefGroup = 1A4A42411BC9BE580077100D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A4A423F1BC9BE580077100D /* LABridgeDataImporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A4A423E1BC9BE580077100D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4A424E1BC9BE580077100D /* LaunchScreen.storyboard in Resources */,
+				1A4A424B1BC9BE580077100D /* Assets.xcassets in Resources */,
+				1A4A42491BC9BE580077100D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A4A423C1BC9BE580077100D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4A42461BC9BE580077100D /* ViewController.swift in Sources */,
+				1A4A42441BC9BE580077100D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A4A42471BC9BE580077100D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A4A42481BC9BE580077100D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A4A424C1BC9BE580077100D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A4A424D1BC9BE580077100D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A4A42501BC9BE580077100D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A4A42511BC9BE580077100D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A4A42531BC9BE580077100D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LABridgeDataImporter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdsv650.LABridgeDataImporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A4A42541BC9BE580077100D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LABridgeDataImporter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdsv650.LABridgeDataImporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A4A423B1BC9BE580077100D /* Build configuration list for PBXProject "LABridgeDataImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A4A42501BC9BE580077100D /* Debug */,
+				1A4A42511BC9BE580077100D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A4A42521BC9BE580077100D /* Build configuration list for PBXNativeTarget "LABridgeDataImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A4A42531BC9BE580077100D /* Debug */,
+				1A4A42541BC9BE580077100D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A4A42381BC9BE580077100D /* Project object */;
+}
